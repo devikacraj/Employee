@@ -19,6 +19,8 @@ public class Prog1
 			break;
 			case 3:e.raisesalary();
 			break;
+			case 4:System.out.println("exit");
+			default:System.out.println("invalid choice");		
 			}
 		}
 	}
