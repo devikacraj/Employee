@@ -88,7 +88,7 @@ Enter choice are to be displayed as menu to the user so that the user can make a
 			}
 		}
       
-The choices will be repetating we choose 4 or default numbers for that cases we used an while loop for,
+The choices will be repetating until by choosing 4 or default numbers(choice>0 && choice<4) for that cases we used an while loop as an
  iterative statement for user felxibility and the choices are kept in switch case.
 
       
