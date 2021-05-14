@@ -33,6 +33,7 @@ This method  is used to create the details of the Employee.
 		this.job=sc.next();
 		
 	}
+	
       
 DISPLAY()
 This method shows the details of the Employee.
@@ -52,7 +53,44 @@ This method is the logic to convert the current salary to 1000 hike and the sal 
 		this.salary=salary+1000;
 		System.out.println("salary raised by 1000.0");
 	}
+	
+MAIN CLASS
+
+In this class we have to create an object of the Employee class using emp as reference variable.
+
+         Employee emp=new Employee();
+	 
+In the main method we make use of nextInt() of Scanner class to take users input,
+1.Create,
+2.Display ,
+3.Raisesalary,
+4.Exit ,
+Enter choice are to be displayed as menu to the user so that the user can make a choice.
+
+
+         while (true)
+		{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("1.create \n 2.display\n 3.raise salary\n 4.exit");
+			int i=sc.nextInt();
+			if(i==4)break;
+			switch(i)
+			{
+			case 1:e.create();
+			break;
+			case 2:e.display();
+			break;
+			case 3:e.raisesalary();
+			break;
+			case 4:System.out.println("exit");
+			default:("invalid choice");
+			
+			}
+		}
       
+The choices will be repetating we choose 4 or default numbers for that cases we used an while loop for,
+ iterative statement for user felxibility and the choices are kept in switch case.
+
       
       
 
