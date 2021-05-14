@@ -21,7 +21,7 @@ Three methods are used in the employee class create(),display() and raiseSalary(
 CREATE()
 This method  is used to create the details of the Employee.
 
-   void create()
+    void create()
 	{
 		System.out.println("enter name:");
 		this.name=sc.next();
@@ -37,7 +37,7 @@ This method  is used to create the details of the Employee.
 DISPLAY()
 This method shows the details of the Employee.
 
-  void display()
+    void display()
 	{
 		System.out.println("Nmae"+this.name+"\n age "+this.age+"\n salary "+this.salary+"\n designation"+this.job);
 	}
@@ -45,9 +45,9 @@ This method shows the details of the Employee.
 The use of this keyword is to initialize the global variable to local variable.
 
 RAISESALARY()
-This method the logic is convert the current salary to 1000 hike and the sal is displayed along with the message that the Salary is raised by 1000.
+This method is the logic to convert the current salary to 1000 hike and the sal is displayed along with the message that the Salary is raised by 1000.
 
-  void raisesalary()
+    void raisesalary()
 	{
 		this.salary=salary+1000;
 		System.out.println("salary raised by 1000.0");
